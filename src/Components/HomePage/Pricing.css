@@ -1,0 +1,228 @@
+.home-pricing-container {
+  display: grid;
+  grid-template-columns: 30% 30rem auto;
+  column-gap: 8rem;
+  /* justify-content: space-between; */
+}
+.feature-name-btn.in-pricing-sec {
+  height: 4.5rem;
+  width: 10rem;
+  font-size: 1.6rem;
+}
+.sign-in-btn.in-pricing-sec {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 25px;
+  color: #797979;
+  height: 4rem;
+  width: 13rem;
+  background-color: #ffffff;
+}
+.pricing-headers {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 110%;
+  color: #242331;
+  width: 70%;
+}
+.pricing-headers span {
+  font-size: 1.4rem;
+}
+.pricing-sec-p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 190%;
+  color: #797979;
+  padding: 1.5rem 0;
+  width: 70%;
+  text-align: center;
+}
+.pricing-sec-p b {
+  color: #242331;
+}
+.pricing-sec-p b.active {
+  color: #5236ff;
+}
+.pricing-peryear {
+  width: 21rem;
+  height: 3.5rem;
+  background: #ffeecc;
+  border-radius: 43px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 157.4%;
+  color: #c68a15;
+}
+.pricing-card-lines {
+  border: 1px solid #d3d3d3;
+  width: 100%;
+}
+.price-info1 {
+  gap: 1.5rem;
+}
+.price-info1 p {
+  text-align: start;
+  width: 93%;
+}
+.price-info1 h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 110%;
+  color: #242331;
+}
+.payment-cards {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 15px;
+  background: #f9f9f9;
+}
+.payment-cards img {
+  /* height: 5.5rem; */
+  width: 7rem;
+}
+.pricing-basic-card {
+  width: 30rem;
+  padding: 3rem 2rem;
+  border-radius: 30px;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.2s ease-in;
+}
+.pricing-basic-card:hover {
+  transform: scale(1.023);
+  background: #f9f9f9;
+}
+.basic-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5rem;
+}
+.advanced-start {
+  gap: 1.5rem;
+}
+
+@media (max-width: 74em) {
+  .home-pricing-container {
+    grid-template-columns: auto;
+    justify-items: center;
+    gap: 3rem;
+  }
+  .price-info1 {
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .feature-name-btn.in-pricing-sec {
+    height: 7rem;
+    width: 17rem;
+    font-size: 2.2rem;
+  }
+  .pricing-headers {
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .price-info1 p {
+    text-align: center;
+  }
+  .pricing-sec-p {
+    font-size: 2rem;
+  }
+  .price-info1 h3 {
+    font-size: 3rem;
+  }
+  .payment-cards {
+    width: 80%;
+    height: 8rem;
+    gap: 4rem;
+  }
+  .payment-cards img {
+    /* height: 8rem; */
+    width: 10rem;
+  }
+  .pricing-basic-card {
+    width: 45rem;
+    margin-top: 4rem;
+  }
+  .sign-in-btn.in-pricing-sec {
+    width: 15rem;
+  }
+  .advanced-start {
+    justify-content: space-between;
+    gap: 5rem;
+  }
+}
+@media (max-width: 58em) {
+  .pricing-basic-card {
+    width: 35rem;
+  }
+  .advanced-start {
+    justify-content: space-between;
+    gap: 0;
+  }
+}
+@media (max-width: 49em) {
+  .payment-cards {
+    gap: 2rem;
+    width: 100%;
+  }
+  .sign-in-btn.in-pricing-sec {
+    width: 17rem;
+  }
+  .feature-name-btn.in-pricing-sec {
+    height: 5rem;
+    width: 15rem;
+    font-size: 2.1rem;
+  }
+  .payment-cards img {
+    /* height: 7rem; */
+    width: 8rem;
+  }
+  .pricing-headers {
+    font-size: 3.3rem;
+  }
+  .price-info1 h3 {
+    font-size: 2.7rem;
+  }
+}
+@media (max-width: 28em) {
+  .home-pricing-container {
+    grid-template-columns: 100%;
+    padding: 0 3rem;
+  }
+  .pricing-basic-card {
+    width: 30rem;
+    margin-top: 0;
+  }
+  .pricing-sec-p {
+    font-size: 1.8rem;
+  }
+  .price-info1 h3 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .price-info1 {
+    width: 90%;
+  }
+  .payment-cards {
+    gap: 1rem;
+  }
+  .payment-cards img {
+    /* height: 6rem; */
+    width: 6rem;
+  }
+  .pricing-headers {
+    font-size: 2.8rem;
+  }
+  .advanced-start,
+  .basic-start {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+}

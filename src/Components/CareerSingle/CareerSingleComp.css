@@ -1,0 +1,34 @@
+.career-single-container {
+  margin: 6rem 0 10rem 0;
+  gap: 3rem;
+  align-items: center;
+}
+.career-single-container .aboutus-h2-p {
+  width: 100%;
+  margin-left: 0%;
+  transform: translate(0%);
+}
+.career-single-container button {
+  width: 16rem;
+}
+.career-single-details {
+  width: 100%;
+  align-items: flex-start;
+  gap: 3rem;
+  height: auto;
+  background: #f9f9f9;
+  border-radius: 30px;
+  padding: 8rem 5rem;
+}
+
+@media (max-width: 49em) {
+  .career-single-details {
+    padding: 6rem 2rem;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 28em) {
+  .career-single-details {
+    padding: 4rem 1rem;
+  }
+}

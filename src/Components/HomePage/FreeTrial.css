@@ -1,0 +1,116 @@
+.free-trial-container {
+  background-image: url("../../Assets/HomePage/ft-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10rem auto 15rem auto;
+  width: 75%;
+  /* overflow: hidden; */
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding: 5rem;
+  align-items: center;
+}
+.leftimg-ft img {
+  width: 50rem;
+}
+.freetrial-info {
+  gap: 2rem;
+}
+.freetrial-info .secondary-title {
+  color: #ffffff;
+  text-align: start;
+  width: 70%;
+}
+.freetrial-info p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 157.4%;
+  color: #ffffff;
+  width: 75%;
+}
+.email-btn-freetrial {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.email-btn-freetrial input {
+  width: 30rem;
+  height: 5.8rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 39px;
+  outline: none;
+  border: none;
+  padding-left: 2.5rem;
+}
+.email-btn-freetrial input::placeholder {
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+.whitenblue-btn {
+  background-color: #ffffff;
+  color: #5236ff;
+  width: 13rem;
+  height: 5.5rem;
+  border-radius: 39px;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+/* .whitenblue-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border: 1px solid #d3d3d3;
+} */
+@media (max-width: 94em) {
+  .leftimg-ft img {
+    width: 40rem;
+    margin-right: 3rem;
+  }
+}
+@media (max-width: 74em) {
+  .leftimg-ft img {
+    width: 45rem;
+  }
+  .free-trial-container {
+    grid-template-columns: auto;
+    justify-items: center;
+    background-size: cover;
+    border-radius: 50px;
+    height: auto;
+    gap: 5rem;
+  }
+  .freetrial-info {
+    gap: 1rem;
+    width: 100%;
+  }
+  .freetrial-info .secondary-title,
+  .freetrial-info p {
+    width: 100%;
+  }
+}
+@media (max-width: 49em) {
+  .freetrial-info {
+    width: 100%;
+  }
+  .free-trial-container {
+    gap: 2rem;
+    padding: 3rem 2rem;
+  }
+  .email-btn-freetrial {
+    flex-direction: column;
+  }
+  .leftimg-ft img {
+    width: 90%;
+  }
+}
+@media (max-width: 35em) {
+  .email-btn-freetrial input {
+    width: 100%;
+  }
+}
+@media (max-width: 28em) {
+  .free-trial-container {
+    width: 89%;
+    margin: 5rem auto;
+  }
+}

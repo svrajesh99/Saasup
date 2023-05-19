@@ -1,0 +1,232 @@
+.blog-single-container {
+  gap: 2rem;
+  align-items: center;
+  /* margin-bottom: 8rem; */
+}
+.bs-img1 {
+  width: 85%;
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+.blog-single-title {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  margin-bottom: 5rem;
+}
+.blog-single-title h2 {
+  font-weight: 800;
+  font-size: 5rem;
+  line-height: 110%;
+  color: #242331;
+  width: 75%;
+}
+.bst-right {
+  border-left: 1px solid #e3e3e3;
+  gap: 2rem;
+  padding-left: 5rem;
+}
+.bst-right-user {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.bst-right-user img {
+  width: 8rem;
+  border-radius: 50%;
+}
+.bst-right-user h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 157.4%;
+  color: #242331;
+}
+.bst-right-user p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 120%;
+  color: #797979;
+}
+.aboutus-p b {
+  color: #242331;
+}
+.bst-right-btns {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+}
+.bst-right-btns button {
+  width: 14rem;
+}
+.blogsingle-details-container {
+  gap: 2.5rem;
+  margin: 0 13rem;
+}
+.bs-details-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.bs-details-img p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 157.4%;
+  color: #5236ff;
+  text-align: center;
+  margin: 2rem 0 3rem 0;
+}
+.bs-details-list {
+  padding-left: 6rem;
+}
+
+.blog-single-qoute {
+  width: 100%;
+  height: 23rem;
+  margin: 2rem 0;
+  border-radius: 28px;
+  background: linear-gradient(
+    to right,
+    #5236ff 0%,
+    #5236ff 25%,
+    #f9f9f9 25%,
+    #f9f9f9 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem 0 9rem;
+  gap: 20%;
+}
+.blog-single-qoute p:nth-child(1) {
+  font-size: 5rem;
+  color: #ffffff;
+}
+.blog-single-qoute p:nth-child(2) {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 157.4%;
+  color: #242331;
+}
+.single-blog-horz {
+  border: 1px solid #e3e3e3;
+  margin: 8rem 0;
+}
+
+@media (max-width: 94em) {
+  .blog-single-title h2 {
+    width: 100%;
+  }
+  .blog-single-title {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+  .blogsingle-details-container {
+    margin: 0 8rem;
+  }
+}
+@media (max-width: 74em) {
+  .blog-single-title h2 {
+    font-size: 4rem;
+  }
+  .blog-single-title {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 3rem;
+  }
+  .blogsingle-details-container {
+    margin: 0;
+  }
+  .blog-single-qoute {
+    /* width: 85%; */
+    height: 29rem;
+    background: linear-gradient(
+      to right,
+      #5236ff 0%,
+      #5236ff 30%,
+      #f9f9f9 30%,
+      #f9f9f9 100%
+    );
+  }
+}
+@media (max-width: 49em) {
+  .blog-single-title h2 {
+    font-size: 3.6rem;
+  }
+  .trinary-title {
+    font-size: 2.8rem;
+  }
+  .bs-details-img img {
+    border-radius: 15px;
+  }
+  .bs-details-list {
+    padding-left: 0;
+  }
+  .blog-single-qoute {
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(
+      to right,
+      #5236ff 0rem,
+      #5236ff 10rem,
+      #f9f9f9 10rem,
+      #f9f9f9 100rem
+    );
+    gap: 3rem;
+    height: 32rem;
+  }
+  .blog-single-qoute p:nth-child(1) {
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 35em) {
+  .blog-single-title h2 {
+    font-size: 3.2rem;
+  }
+  .trinary-title {
+    font-size: 2.6rem;
+  }
+  .blog-single-qoute p:nth-child(2) {
+    font-size: 1.8rem;
+  }
+  .blog-single-qoute {
+    padding: 2rem;
+    flex-direction: column;
+    background: linear-gradient(
+      to bottom,
+      #5236ff 0rem,
+      #5236ff 10rem,
+      #f9f9f9 10rem,
+      #f9f9f9 100rem
+    );
+    text-align: justify;
+    height: auto;
+  }
+}
+@media (max-width: 26em) {
+  .blog-single-qoute {
+    margin-left: 0;
+    transform: translate(0);
+  }
+  .bq-single-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 23em) {
+  .blog-single-qoute {
+    margin-left: -2rem;
+    height: auto;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 18em) {
+  .blog-single-title h2 {
+    font-size: 2.7rem;
+  }
+  .trinary-title {
+    font-size: 2.3rem;
+  }
+  .blog-single-qoute {
+    width: 80%;
+  }
+}

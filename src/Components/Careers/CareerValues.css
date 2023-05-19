@@ -1,0 +1,55 @@
+.career-values-container {
+  margin: 7rem 0 10rem 0;
+  gap: 2rem;
+  align-items: center;
+}
+.career-values-cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2rem;
+  justify-items: center;
+}
+.career-values-card {
+  background: #ffffff;
+  border: 1px solid #f6f6f6;
+  box-shadow: 1px 15px 23px rgba(229, 229, 229, 0.25);
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  gap: 1.5rem;
+  padding: 3rem;
+}
+.cv-icon-box {
+  height: 7.5rem;
+  width: 7.5rem;
+  border-radius: 20px;
+}
+.cv-icon-box img {
+  height: 4rem;
+  width: 4rem;
+}
+.career-values-card h4 {
+  font-weight: 700;
+  font-size: 2.7rem;
+  line-height: 110%;
+  color: #242331;
+}
+
+@media (max-width: 78em) {
+  .career-values-cards {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (max-width: 49em) {
+  .career-values-cards {
+    grid-template-columns: auto;
+  }
+  .career-values-card {
+    width: 75%;
+  }
+}
+@media (max-width: 35em) {
+  .career-values-card {
+    width: 100%;
+  }
+}

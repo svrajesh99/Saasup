@@ -1,0 +1,16 @@
+.blog-container {
+  align-items: center;
+  margin-bottom: 10rem;
+}
+.blog-img-three {
+  background-image: url("../../Assets/Blog/p3.png");
+}
+.blog-img-foure {
+  background-image: url("../../Assets/Blog/p4.png");
+}
+.blog-img-five {
+  background-image: url("../../Assets/Blog/p5.png");
+}
+.blog-img-six {
+  background-image: url("../../Assets/Blog/p6.png");
+}

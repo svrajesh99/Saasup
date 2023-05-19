@@ -1,0 +1,156 @@
+.pp-pricetable-container {
+  margin: 5rem 0 10rem 0;
+  align-items: center;
+  gap: 3rem;
+}
+
+table {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+tr {
+  height: 6rem;
+}
+td {
+  height: 12rem;
+  border-bottom: 1px solid #d3d3d3;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 110%;
+  color: #242331;
+  text-align: center;
+}
+.table-lastrow {
+  height: 10rem;
+}
+.feature-head-primary p {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 110%;
+  color: #242331;
+  margin: 0.5rem 0;
+}
+th {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 27px;
+  color: #797979;
+  text-align: center;
+}
+.title-options {
+  width: 30%;
+}
+.icon-options-column {
+  width: 20%;
+}
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+.feature-head-sub {
+  text-align: start;
+  padding-left: 5rem;
+}
+#feature-head {
+  color: #5236ff;
+}
+.icon-correct {
+  color: #31c65b;
+  font-size: 3rem;
+}
+.icon-wrong {
+  color: #bebebe;
+  font-size: 3rem;
+}
+.table-lastrow th button {
+  width: 15rem;
+}
+
+@media (max-width: 58em) {
+  .title-options {
+    width: 40%;
+  }
+  .icon-options-column {
+    width: 20%;
+  }
+  .table-lastrow th button {
+    width: 11rem;
+    font-size: 1.6rem;
+    height: 4rem;
+  }
+}
+@media (max-width: 49em) {
+  td {
+    font-size: 2.8rem;
+  }
+  .title-options {
+    width: 35%;
+  }
+  .icon-options-column {
+    width: 25%;
+  }
+  .feature-head-primary p {
+    font-size: 1.5rem;
+  }
+  .table-lastrow th button {
+    width: 9rem;
+    font-size: 1.4rem;
+  }
+  .feature-head-sub {
+    padding-left: 0.5rem;
+  }
+}
+@media (max-width: 35em) {
+  td {
+    font-size: 2.4rem;
+  }
+  .title-options {
+    width: 30%;
+  }
+  .feature-head-primary p {
+    font-size: 1.5rem;
+  }
+  .table-lastrow th button {
+    width: 9rem;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 28em) {
+  td {
+    font-size: 2rem;
+  }
+  .title-options {
+    width: 20%;
+  }
+  .feature-head-primary p {
+    font-size: 1.5rem;
+  }
+  .table-lastrow th button {
+    width: 8rem;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+    height: 3.7rem;
+  }
+  .icon-options-column {
+    width: 10%;
+  }
+  .table-lastrow th button {
+    width: 5.2rem;
+    height: 8rem;
+    border-radius: 10px;
+  }
+  table {
+    border-radius: 20px;
+  }
+}
+@media (max-width: 18em) {
+  table {
+    border-radius: 15px;
+  }
+  .table-lastrow th button {
+    width: 5rem;
+  }
+}

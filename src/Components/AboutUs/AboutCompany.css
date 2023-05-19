@@ -1,0 +1,174 @@
+.about-company-container {
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.aboutus-h2-p {
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+  text-align: center;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.aboutus-h2-p h2 {
+  font-weight: 800;
+  font-size: 5rem;
+  line-height: 110%;
+  color: #242331;
+}
+.aboutus-p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 157.4%;
+  color: #797979;
+}
+.about-company-imgs {
+  display: grid;
+  grid-template-columns: auto 35%;
+  column-gap: 2rem;
+}
+.about-company-imgs img {
+  width: 100%;
+  border-radius: 25px;
+}
+.about-company-do {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 35% auto;
+}
+.aboutus-secondary-heading {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 110%;
+  color: #242331;
+}
+ul .aboutus-p {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.about-company-points {
+  display: flex;
+  width: 75%;
+  height: 10rem;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  margin: 7rem auto;
+}
+.acp-comp {
+  align-items: center;
+  gap: 1rem;
+}
+.acp-comp h2 {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 110%;
+  color: #242331;
+}
+.acp-comp h2 span {
+  color: #5236ff;
+}
+.acp-comp p {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 157.4%;
+  color: #242331;
+}
+
+/********** our mission ************/
+.aboutus-mission-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  margin-bottom: 8rem;
+}
+.aboutus-mission-container img {
+  width: 100%;
+  border-radius: 25px;
+}
+.aboutus-mission-info {
+  gap: 2rem;
+}
+@media (max-width: 94em) {
+  .aboutus-h2-p {
+    width: 90%;
+  }
+}
+@media (max-width: 74em) {
+  .about-company-do {
+    grid-template-columns: auto;
+    row-gap: 2rem;
+  }
+  .aboutus-mission-container {
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+  .aboutus-mission-container img {
+    width: 80%;
+  }
+}
+@media (max-width: 58em) {
+  .about-company-imgs {
+    gap: 1rem;
+  }
+  .about-company-points {
+    height: 20rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: start;
+    margin: 5rem auto;
+  }
+}
+@media (max-width: 49em) {
+  .aboutus-h2-p h2 {
+    font-size: 4rem;
+  }
+  .aboutus-mission-container img {
+    border-radius: 15px;
+  }
+}
+@media (max-width: 35em) {
+  .about-company-imgs img {
+    border-radius: 15px;
+  }
+  .aboutus-h2-p h2 {
+    font-size: 3.4rem;
+  }
+  .aboutus-secondary-heading {
+    font-size: 2.6rem;
+  }
+  .aboutus-p {
+    font-size: 1.6rem;
+  }
+  .about-company-points {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: start;
+  }
+  .acp-comp {
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: start;
+  }
+}
+@media (max-width: 28em) {
+  .about-company-imgs img {
+    border-radius: 15px;
+  }
+  .aboutus-mission-container img {
+    width: 95%;
+    border-radius: 10px;
+  }
+  .about-company-points {
+    row-gap: 3rem;
+    justify-content: center;
+    height: auto;
+  }
+  .acp-comp {
+    flex-direction: column;
+    gap: 0;
+  }
+}

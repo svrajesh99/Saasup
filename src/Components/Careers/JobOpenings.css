@@ -1,0 +1,44 @@
+.career-job-openings-container {
+  gap: 5rem;
+  align-items: center;
+  margin-bottom: 15rem;
+}
+.career-jobs-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  justify-items: center;
+  gap: 2rem;
+}
+.cjo-applynow-btn {
+  width: 15rem;
+  border: 1px solid #cbcbcb;
+  background-color: #ffffff;
+  color: #242331;
+}
+.career-hovered-card {
+  background-color: #5236ff;
+}
+.career-hovered-card h3,
+.career-hovered-card p,
+.career-hovered-card .career-card-detail span {
+  color: #ffffff;
+}
+
+@media (max-width: 78em) {
+  .career-jobs-cards {
+    grid-template-columns: auto;
+  }
+  .career-jobs-cards .career-card {
+    width: 80%;
+  }
+}
+@media (max-width: 58em) {
+  .career-jobs-cards .career-card {
+    width: 95%;
+  }
+}
+@media (max-width: 49em) {
+  .career-jobs-cards .career-card {
+    width: 100%;
+  }
+}

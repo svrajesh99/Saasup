@@ -1,0 +1,168 @@
+.testimonials-container {
+  position: relative;
+  background-color: #735dfd;
+  align-items: center;
+  padding: 11rem 10rem;
+  gap: 2rem;
+  height: auto;
+  margin-bottom: 10rem;
+}
+.testimonials-container .feature-name-btn {
+  background-color: #6850ff;
+  color: #ffffff;
+}
+.testimonials-container .secondary-title {
+  color: #ffffff;
+}
+.testi-detail {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 157.4%;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 3rem;
+}
+.testi-user {
+  border-radius: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 10rem;
+}
+.testi-user-name {
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 157.4%;
+  text-align: center;
+  color: #ffffff;
+}
+.testi-user-job {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 210%;
+  color: #ffffff;
+  text-align: center;
+}
+.testi-scroll-btns {
+  position: absolute;
+  top: 62.5%;
+  transform: translateY(-50%);
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #6850ff;
+}
+.testi-scroll-btns:hover {
+  background-color: #6850ff;
+}
+.left-scroll {
+  left: 14.2%;
+}
+.right-scroll {
+  right: 14.2%;
+}
+.t-ratings {
+  color: #ffb422;
+  font-size: 2rem;
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+}
+
+@media (max-width: 79em) {
+  .testi-scroll-btns {
+    top: 64%;
+  }
+}
+@media (max-width: 73em) {
+  .testi-scroll-btns {
+    top: 62%;
+  }
+}
+@media (max-width: 66em) {
+  .testi-scroll-btns {
+    top: 63.7%;
+  }
+  .left-scroll {
+    left: 14.8%;
+  }
+  .right-scroll {
+    right: 14.8%;
+  }
+}
+@media (max-width: 58em) {
+  .testi-detail {
+    font-size: 1.7rem;
+  }
+  .testimonials-container .secondary-title {
+    width: 100%;
+  }
+  .testimonials-container {
+    padding: 11rem 4rem;
+  }
+  .left-scroll {
+    left: 8%;
+  }
+  .right-scroll {
+    right: 8%;
+  }
+  .testi-scroll-btns {
+    top: 62%;
+  }
+  .left-scroll {
+    left: 10.5%;
+  }
+  .right-scroll {
+    right: 10.5%;
+  }
+}
+@media (max-width: 51em) {
+  .testi-scroll-btns {
+    top: 61.5%;
+  }
+  .left-scroll {
+    left: 10%;
+  }
+  .right-scroll {
+    right: 10%;
+  }
+}
+@media (max-width: 39em) {
+  .testi-scroll-btns {
+    top: 61%;
+  }
+  .left-scroll {
+    left: 9%;
+  }
+  .right-scroll {
+    right: 9%;
+  }
+}
+@media (max-width: 28em) {
+  .testi-scroll-btns {
+    top: 60.6%;
+  }
+  .left-scroll {
+    left: 8%;
+  }
+  .right-scroll {
+    right: 8%;
+  }
+}
+@media (max-width: 20em) {
+  .testimonials-container {
+    padding: 11rem 2rem;
+  }
+  .testi-scroll-btns {
+    top: 60%;
+  }
+  .left-scroll {
+    left: 2%;
+  }
+  .right-scroll {
+    right: 2%;
+  }
+}

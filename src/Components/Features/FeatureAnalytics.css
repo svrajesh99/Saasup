@@ -1,0 +1,33 @@
+.each-page-topcompo {
+  background-image: url("../../Assets/FeaturePage/bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.page-common-header {
+  margin: 5rem auto 8rem auto;
+  margin-left: 50%;
+  transform: translate(-50%);
+  width: 40%;
+}
+.features-container {
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 10rem;
+}
+
+@media (max-width: 94em) {
+  .page-common-header {
+    width: 80%;
+  }
+}
+@media (max-width: 49em) {
+  .aboutus-h2-p {
+    width: 90%;
+    z-index: -1;
+  }
+}
+@media (max-width: 35em) {
+  .page-common-header {
+    margin-bottom: 4rem;
+  }
+}

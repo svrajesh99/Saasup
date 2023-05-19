@@ -1,0 +1,39 @@
+.careers-head-container {
+  gap: 2rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+.careers-head-container button {
+  width: 23rem;
+}
+.careers-head-imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 56rem);
+  column-gap: 2rem;
+}
+.careers-head-imgs img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media (max-width: 94em) {
+  .careers-head-container .aboutus-h2-p {
+    margin-left: 0%;
+    transform: translate(0%);
+  }
+  .careers-head-imgs {
+    column-gap: 1rem;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media (max-width: 49em) {
+  .careers-head-imgs img {
+    border-radius: 15px;
+  }
+}
+@media (max-width: 35em) {
+  .careers-head-imgs {
+    column-gap: 0.5rem;
+  }
+}

@@ -1,0 +1,55 @@
+.integ-single-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.integration-single-container {
+  gap: 2.5rem;
+  margin: 10rem auto 20rem auto;
+}
+.integration-single-container .secondary-title {
+  width: 100%;
+  text-align: start;
+}
+.intg-single-imgbox {
+  width: 80%;
+  margin-top: -2rem;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.trinary-title {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 110%;
+  color: #242331;
+}
+.integration-single-container .sign-in-btn {
+  width: 24rem;
+  height: 6.5rem;
+}
+
+@media (max-width: 63em) {
+  .integration-single-container {
+    margin-top: 7rem;
+  }
+}
+@media (max-width: 49em) {
+  .integration-single-container .sign-in-btn {
+    width: 22rem;
+  }
+  .integ-single-top .icard-icon {
+    height: 4.8rem;
+    width: 5rem;
+  }
+}
+@media (max-width: 35em) {
+  .integration-single-container {
+    margin-bottom: 15rem;
+  }
+}
+@media (max-width: 28em) {
+  .integration-single-container .sign-in-btn {
+    width: 20rem;
+    height: 6rem;
+  }
+}

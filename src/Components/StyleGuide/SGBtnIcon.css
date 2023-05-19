@@ -1,0 +1,133 @@
+.buttons-container {
+  gap: 3rem;
+}
+.btns-row {
+  display: flex;
+  gap: 2rem;
+}
+.btns-row .sign-in-btn {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.btns-row .btn-large {
+  width: 18rem;
+}
+.right-sub-heading {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 110%;
+  color: #242331;
+}
+.btns-row .app-btn {
+  width: 15rem;
+}
+.btns-row .cart-btn {
+  width: 30rem;
+}
+.app-cart-btns {
+  font-size: 1.8rem;
+}
+
+/************Iconography *************/
+.iconog-container {
+  flex-direction: column;
+  gap: 4rem;
+}
+.iconog-six-icons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+.iconog-six-icons img {
+  height: 15rem;
+  /* width: 20rem; */
+}
+.iconog-row1 {
+  display: flex;
+  gap: 1.5rem;
+}
+.iconog-row1 div {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 16px;
+}
+.iconog-row1 div .first-exception,
+.iconog-row2 div img,
+.iconog-row3 div .first-exception {
+  height: 100%;
+  width: 100%;
+}
+.iconog-row1 div img {
+  height: 60%;
+  width: 60%;
+}
+
+.iconog-row2 {
+  display: flex;
+  gap: 3rem;
+  margin-left: -23.5rem;
+}
+.iconog-row3 {
+  display: flex;
+  gap: 2rem;
+  margin-left: -22rem;
+}
+.iconog-row2 div {
+  width: 8rem;
+  height: 10rem;
+}
+.iconog-row3 div {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 13px;
+}
+.iconog-row3 div img {
+  width: 50%;
+  /* height: 50%; */
+}
+
+@media (max-width: 74em) {
+  .grid-column-btns {
+    grid-template-columns: auto;
+  }
+  .buttons-container {
+    margin: 5% 0 0 13%;
+  }
+}
+@media (max-width: 58em) {
+  .iconog-six-icons {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 49em) {
+  .iconog-row1,
+  .iconog-row2,
+  .iconog-row3 {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0;
+    justify-content: center;
+  }
+  .btns-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttons-container {
+    margin: 5% 0 0 0;
+  }
+}
+@media (max-width: 35em) {
+  .iconog-six-icons {
+    grid-template-columns: auto;
+  }
+  .btns-row .cart-btn {
+    width: 25rem;
+  }
+}
+@media (max-width: 23em) {
+  .btns-row .cart-btn {
+    width: 21rem;
+  }
+}

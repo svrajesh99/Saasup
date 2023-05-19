@@ -1,0 +1,79 @@
+.integration-container {
+  margin: 10rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  justify-items: center;
+  gap: 3rem;
+}
+.integration-card {
+  width: 36rem;
+  height: auto;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  padding: 3rem 3rem 5rem 3rem;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.ic-icon-info {
+  gap: 2rem;
+}
+.icard-icon {
+  width: 6.5rem;
+  height: 6.3rem;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 3rem;
+}
+.icard-title h3 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 110%;
+  color: #242331;
+}
+.icard-ptag {
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 157.4%;
+  color: #797979;
+}
+.integration-card a:link,
+.integration-card a:visited {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 25px;
+  text-decoration-line: underline;
+  color: #242331;
+}
+@media (max-width: 95em) {
+  .integration-container {
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+  }
+}
+@media (max-width: 74em) {
+  .integration-card {
+    width: 33rem;
+  }
+}
+@media (max-width: 58em) {
+  .integration-container {
+    margin: 6rem auto 10rem auto;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .integration-card {
+    width: 36rem;
+  }
+}
+@media (max-width: 28em) {
+  .integration-card {
+    width: 30rem;
+    padding: 3rem 2rem 4rem 2rem;
+  }
+}
+@media (max-width: 18em) {
+  .integration-card {
+    width: 27rem;
+    padding: 2rem 1.5rem 3rem 1.5rem;
+  }
+}

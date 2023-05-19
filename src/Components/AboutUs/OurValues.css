@@ -1,0 +1,62 @@
+.au-ourvalues-container {
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 13rem;
+}
+.au-ourvalues-points {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 5rem;
+  row-gap: 3rem;
+}
+.ourvalues-point-box {
+  width: 45rem;
+  height: 14rem;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  display: flex;
+  padding: 2rem 1.5rem;
+  gap: 2rem;
+}
+.ov-point-info {
+  justify-content: space-between;
+}
+.ov-point-info h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 110%;
+  color: #242331;
+}
+.ov-point-info .aboutus-p {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 74em) {
+  .au-ourvalues-points {
+    grid-template-columns: auto;
+    row-gap: 2rem;
+    justify-items: center;
+  }
+}
+@media (max-width: 35em) {
+  .ourvalues-point-box {
+    width: 100%;
+  }
+}
+@media (max-width: 28em) {
+  .ourvalues-point-box {
+    height: 100%;
+  }
+  .ourvalues-point-box img {
+    height: 10rem;
+  }
+}
+@media (max-width: 18em) {
+  .ourvalues-point-box {
+    height: 20rem;
+    width: 98%;
+  }
+  .ourvalues-point-box img {
+    height: 10rem;
+  }
+}

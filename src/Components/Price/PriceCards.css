@@ -1,0 +1,36 @@
+.price-page-container {
+  margin-top: 5rem;
+  gap: 3rem;
+}
+.pricepage-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+.pricing-basic-card.active {
+  background-color: #5236ff;
+}
+.active .pricing-headers,
+.active .pricing-peryear,
+.active .pricing-sec-p,
+.active .pricing-sec-p b {
+  color: #ffffff;
+}
+.active .pricing-peryear {
+  background-color: #6950ff;
+}
+.pro-start {
+  gap: 3rem;
+  justify-content: space-between;
+}
+.pro-start .in-pricing-sec {
+  width: 15rem;
+}
+
+@media (max-width: 74em) {
+  .pricepage-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}

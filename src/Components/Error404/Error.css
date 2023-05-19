@@ -1,0 +1,57 @@
+.last-comps-bg-size {
+  background-size: cover;
+}
+.error-404-container {
+  align-items: center;
+  margin: 5rem 0 15rem 0;
+  gap: 2rem;
+}
+.error-404 {
+  font-weight: 800;
+  font-size: 22rem;
+  line-height: 110%;
+  color: #5236ff;
+}
+.error-404-container .aboutus-p {
+  width: 50%;
+  text-align: center;
+}
+.error-404-container button {
+  width: 16rem;
+  height: 6.5rem;
+}
+
+@media (max-width: 94em) {
+  .error-404-container .aboutus-p {
+    width: 75%;
+  }
+}
+@media (max-width: 49em) {
+  .error-404 {
+    font-size: 19rem;
+  }
+  .error-404-container .aboutus-p {
+    width: 90%;
+  }
+}
+@media (max-width: 35em) {
+  .error-404 {
+    font-size: 16rem;
+  }
+  .error-404-container .aboutus-p {
+    width: 100%;
+  }
+}
+@media (max-width: 28em) {
+  .error-404 {
+    font-size: 14rem;
+  }
+}
+@media (max-width: 18em) {
+  .error-404 {
+    font-size: 11rem;
+  }
+  .error-404-container .primary-title {
+    font-size: 3.2rem;
+  }
+}
